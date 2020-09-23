@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    width: 1680px;
+    background-image: url(img/background.png);
+    font-family: Roboto;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 20%  50% 10% 10% 10%;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 1680px;
+    height: 60px;
+    background-color: white;
+}
+
+.logo{
+    padding-left: 100px;
+    align-self: center;
+    justify-self: center;
+    grid-row: 2;
+    grid-column: 1;
+    height: 40px;
+}
+
+.headerButton1{
+    grid-row: 2;
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: 3px solid #18A0FB;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #18A0FB;
+}
+.headerButton2{
+    grid-row: 2;
+    grid-column: 4;
+    align-self: center;
+    justify-self: center;
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    border: 3px solid #18A0FB;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;    
+}
+
+.transparentDiv{
+    background-color: rgba(0, 0, 0, 0);
+    height: 10px;
+}
+
+h1{
+    padding: 4px 0 4px 10px;
+    font-size: 32px;
+    height: 40px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    color: white;
+    text-shadow: 3px ;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#contentBox1{
+    background-color: white;
+    height: 700px;
+}
+
+.govnoBox1{
+    height: 600px;
+    width: 420px;
+    background-color: #FCFCFC;
+    margin-left: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.imgBox1{
+    width: 420px;
+}
+
+#contentBox2{
+    background-color: white;
+    height: 820px;
+}
+
+.navMenu{
+    grid-row: 2;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navLink, a{
+    display: inline;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #18A0FB;
+}
